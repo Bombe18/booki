@@ -614,13 +614,11 @@ footer ul {
 
     /*activity marseille */
     .activity {
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+       
     }
 
     .activitemarseille .card {
-
-        max-width: 193.5px;
         max-height: 270px;
     }
 
@@ -635,7 +633,7 @@ footer ul {
 
     .activity img {
         height: 200px;
-        width: 193.5px;
+      
     }
 
     .activity .card-title {
