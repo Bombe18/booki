@@ -91,11 +91,13 @@ a {
 /* NAV */
 
 
-.entete p {
-    margin: 0;
+button {
+
     border-style: none;
     background-color: transparent;
 }
+
+
 
 .entete {
     display: flex;
@@ -126,6 +128,7 @@ a {
 }
 
 .menuhover {
+    margin-top: 0;
     text-decoration: overline;
     text-decoration-color: transparent;
     padding-top: 13px;
