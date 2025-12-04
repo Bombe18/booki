@@ -91,7 +91,8 @@ a {
 /* NAV */
 
 
-button {
+.entete p {
+    margin: 0;
     border-style: none;
     background-color: transparent;
 }
@@ -459,18 +460,19 @@ h1 {
 .activity {
     gap: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(237px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
 }
 
-.activity a {
+.activity .card-content {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 20px 19px 20px 19px;
+    height: 20px;
 }
 
 .activity .card {
     padding: 0;
-    height: 439px;
-    gap: 4px;
     overflow: hidden;
     flex-direction: column;
 }
@@ -485,7 +487,8 @@ h1 {
 }
 
 .activity .card-title {
-    margin-left: 19px;
+    margin: 0;
+
 }
 
 /** footer **/
@@ -613,31 +616,47 @@ footer ul {
     }
 
     /*activity marseille */
-    .activity {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-       
-    }
+
 
     .activitemarseille .card {
         max-height: 270px;
     }
 
-    .activity .card {
-        gap: 0;
+    .activity-card {
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: white;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     .activity .card-content {
+        display: flex;
+        align-items: center;
+        text-align: left;
         height: 70px;
+        padding: 0px 0px 0px 20px;
+    }
+
+
+    .activity-card h3 {
+        font-size: 16px;
+        padding: 20px 19px 20px 19px;
+        margin: 0;
+        text-align: left;
+        flex-grow: 1;
         align-content: center;
     }
 
     .activity img {
         height: 200px;
-      
+
     }
 
     .activity .card-title {
         font-size: 16px;
+        
     }
 }
 
@@ -705,7 +724,7 @@ footer ul {
     section .search {
         max-width: 45%;
         overflow: visible;
-    
+
         max-height: 49px;
     }
 
@@ -770,7 +789,7 @@ footer ul {
         width: 46%;
     }
 
-    
+
     /*Hebergement*/
 
     .hebergements .section-title {
