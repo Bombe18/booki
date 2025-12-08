@@ -451,8 +451,7 @@ h1 {
 
 /***** Activity in Marseille *****/
 .activitemarseille {
-    margin-left: 30px;
-    margin-right: 30px
+margin: 0px 30px 30px 30px;
 }
 
 .activitemarseille h2 {
@@ -886,6 +885,7 @@ footer ul {
         display: flex;
         flex-direction: column;
         gap: 15px;
+        margin-bottom: 30px;
     }
 
 
