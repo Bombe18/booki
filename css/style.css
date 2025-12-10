@@ -72,19 +72,6 @@ a {
 }
 
 
-.a-show-more {
-    max-width: 110px;
-    height: 0;
-    display: block;
-
-
-}
-
-.show-more {
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 10px;
-}
 
 
 
@@ -398,6 +385,20 @@ h1 {
     margin-bottom: 8px;
 }
 
+
+.a-show-more {
+    max-width: 110px;
+    height: 0;
+    display: block;
+
+
+}
+
+.show-more {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
 
 /****** Populaires ***********/
 .populaires {
