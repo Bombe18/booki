@@ -274,7 +274,6 @@ h1 {
     align-items: center;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
-    flex-shrink: 0;
 }
 
 .info i {
