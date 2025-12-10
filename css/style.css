@@ -757,7 +757,7 @@ footer ul {
     }
 
     .search input {
-        max-width: 244px;
+        max-width: 165%;
         position: relative;
         z-index: 1;
         max-height: 49px;
