@@ -734,7 +734,6 @@ footer ul {
 
     section .search .searchbuttonmobile {
         display: flex;
-        visibility: visible;
         position: relative;
         left: -12px;
         background-color: #0065FC;
