@@ -749,7 +749,7 @@ footer ul {
 
     .populaires-cards img {
         height: 146px;
-        width: 111.67px;
+        max-width: 111.67px;
     }
 
     .populaires-cards {
