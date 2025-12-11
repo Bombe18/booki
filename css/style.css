@@ -100,16 +100,12 @@ button {
 
 .menuhover {
     margin-top: 0;
-    text-decoration: overline;
-    text-decoration-color: transparent;
     padding-top: 13px;
     border-top: 2px transparent solid;
     font-size: 16px;
 }
 
 .menuhover:hover {
-    text-decoration: overline;
-    text-decoration-color: transparent;
     padding-top: 13px;
     border-top: 2px #0065FC solid;
     color: #0065FC;
@@ -801,10 +797,9 @@ footer ul {
     }
 
     footer .footersection {
-        display: grid;
-        grid-template-columns: minmax(300px, 1fr);
+        display: flex;
+        flex-direction: column;
         padding-bottom: 10px;
         gap: 3px;
     }
-
 }
