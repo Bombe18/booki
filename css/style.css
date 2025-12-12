@@ -663,11 +663,15 @@ footer ul {
     }
 
     .search input {
-        max-width: 165%;
+        max-width: 164%;
         position: relative;
         z-index: 1;
         max-height: 49px;
 
+    }
+
+    .fa-location-dot {
+        margin: 0px 4%;
     }
 
     /*Button filters*/
